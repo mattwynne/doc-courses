@@ -1,10 +1,12 @@
-Week 1: no lecture
-Week 2: Profiling and Legacy Intro (S, R, N)
-Week 3: Working with Legacy code (R, N)
-Week 4: Mock Objects (N, R)
-Week 5: Structuring large OO systems (A)
-Week 6: Components (A)
-Week 7: EDSL (R, N)
-Week 8: Acceptance testing (N, R)
-Week 9: Designing a system under pressure (A)
-Week 10: Architectural case studies (N, R, A)
+Autumn 2011
+
+Week 1  : 3rd Oct  : no lecture
+Week 2  : 10th Oct : Profiling and Legacy Intro (S, R, N)
+Week 3  : 17th Oct : Working with Legacy code (R, N)
+Week 4  : 24th Oct : Mock Objects (N, R)
+Week 5  : 31st Oct : Structuring large OO systems (A)
+Week 6  : 7th Nov  : Components (A)
+Week 7  : 14th Nov : EDSL (R, N)
+Week 8  : 21st Nov : Acceptance testing (N, R)
+Week 9  : 28th Nov : Designing a system under pressure (A)
+Week 10 : 5th Dec  : Architectural case studies (N, R, A)
