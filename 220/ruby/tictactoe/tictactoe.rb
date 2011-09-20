@@ -80,6 +80,12 @@ class TicTacToe
   end
   
   def won_by(player)
-    return [@board.rows, @board.cols, @board.diags].any? { |linetype| linetype.any? { |line| line.all? { |cell| cell.owned_by?(player) }}}
+    [@board.rows, @board.cols, @board.diags].any? do |linetype| 
+      linetype.any? do |line| 
+        line.all? do |cell|
+          cell.owned_by?(player)
+        end
+      end
+    end
   end
 end
