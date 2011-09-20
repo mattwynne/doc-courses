@@ -80,12 +80,10 @@ class TicTacToe
   end
   
   def won_by(player)
+    owned_by_player = lambda { |cell| cell.owned_by?(player) }
+    all_lines_owned_by_player = lambda { |line| line.all?(&owned_by_player) }
     [@board.rows, @board.cols, @board.diags].any? do |linetype| 
-      linetype.any? do |line| 
-        line.all? do |cell|
-          cell.owned_by?(player)
-        end
-      end
+      linetype.any?(&all_lines_owned_by_player)
     end
   end
 end
